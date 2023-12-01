@@ -16,6 +16,8 @@ html {
   background-color: #1b1919;
   inline-size: 1200px;
   block-size: 100%;
+  display: grid;
+  place-content: center;
 }
 
 h1,
@@ -51,8 +53,6 @@ ol {
   display: flex;
   align-items: end;
   gap: 30px;
-  padding-inline: 30px;
-  padding-block: 133px 20px;
   max-inline-size: 1170px;  /* 30px под скроллбар */
 }
 
