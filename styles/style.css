@@ -56,12 +56,11 @@ ol {
   max-inline-size: 1170px;  /* 30px под скроллбар */
 }
 
-.result {
-  padding-bottom: 10px;
-}
-
 .title {
-  margin-block-end: 26px;
+  padding-top: 5px;
+  max-inline-size: 260px;
+  max-block-size: 210px;
+  margin-block-end: 27px;
   color: #FFF;
   font-family: 'Oswald', sans-serif;
   font-size: 75px;
@@ -155,7 +154,7 @@ ol {
 
 .search-form {
   display: grid;
-  grid-template-columns: 1fr 1fr 194px;
+  grid-template-columns: 225px 212px 194px;
   justify-content: space-between;
   align-items: start;
   gap: 40px;
